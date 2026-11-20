@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    background: #ffffff;
+}
+
+/* Header */
+header {
+    background: #eee5ff;
+    border: 2px solid #a855f7;
+    color: #8735c7;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* Navigation */
+nav {
+    background: #e1f0ff;
+    border: 2px solid #48a5e8;
+    color: #397eb5;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* Main content and aside */
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 8px;
+}
+
+/* Main */
+main {
+    background: #e4f5ef;
+    border: 2px solid #50b99b;
+    color: #368e78;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Article */
+article {
+    background: #f0e5df;
+    border: 2px solid #e85b3c;
+    color: #d94b2c;
+    padding: 25px 10px;
+    height: 105px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+/* Section */
+section {
+    background: #e1e6fa;
+    border: 2px solid #8955e9;
+    color: #7040bd;
+    padding: 25px 10px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+/* Aside */
+aside {
+    background: #e0edf7;
+    border: 2px solid #438fbd;
+    color: #39759e;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #e1f0ee;
+    border: 2px solid #489f91;
+    color: #347e72;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 8px;
+}
